@@ -12,3 +12,11 @@ console.log("Il tuo numero: " + numeroGiocatore);
 var numeroComputer = Math.floor(Math.random() * 6) + 1;
 console.log("Numero del computer: " + numeroComputer);
 
+// Confronta i numeri del giocatore e del computer e stampa il risultato sulla console
+if (numeroGiocatore > numeroComputer) {
+    console.log("Hai vinto! Il tuo numero è maggiore.");
+  } else if (numeroComputer > numeroGiocatore) {
+    console.log("Il computer ha vinto. Il numero del computer è maggiore.");
+  } else {
+    console.log("Pareggio. Entrambi avete ottenuto lo stesso numero.");
+  }
