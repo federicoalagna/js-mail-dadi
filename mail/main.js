@@ -13,3 +13,15 @@ console.log("Lista email di chi può accedere:");
 for (let i = 0; i < listaEmail.length; i++) {
     console.log(listaEmail[i]);
 }
+
+// Utilizzo un'istruzione condizionale per controllare se l'email inserita è presente nella lista di chi può accedere
+if (listaEmail.includes(userEmail)) {
+
+    // Se l'email è nella lista, stampo un messaggio appropriato utilizzando la funzione console.log
+    console.log("Accesso autorizzato");
+
+} else {
+
+    // Se l'email non è nella lista, stampo un altro messaggio appropriato
+    console.log("Accesso negato");
+}
