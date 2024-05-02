@@ -1,6 +1,4 @@
---si preme il pulsante "Gioca" e viene eseguita la funzione gioca
-
---all'interno della funzione gioca vengono creati due array chiamati punteggi
+-- Chiedi all'utente di inserire un numero in un prompt (simulando il lancio di un dado)
 
 --genero un numero casuale compreso tra 1 e 6 per il giocatore e salvato nell'array punteggi
 
